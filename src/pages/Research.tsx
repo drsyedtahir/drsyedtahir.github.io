@@ -7,6 +7,14 @@ export default function Research() {
   return (
     <main id="main" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
       <PageHead label="Scholarship" title="Research" sub="Leadership, psychological capital and workplace behavior in emerging economies." />
+      <div className="animate-fade-up-delay-3 mt-10 grid gap-4 sm:grid-cols-2">
+              {stats.slice(4).map((s) => (
+                <div key={s.l} className="panel p-5 text-center">
+                  <p className="font-display text-3xl font-extrabold text-signal">{s.v}</p>
+                  <p className="mt-1 text-xs text-mute">{s.l}</p>
+                </div>
+              ))}
+            </div>
 
       <div className="animate-fade-up-delay-3 mt-10 grid gap-4 sm:grid-cols-4">
         {stats.slice(1, 4).map((s) => (

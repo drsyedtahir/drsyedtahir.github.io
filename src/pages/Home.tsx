@@ -36,7 +36,8 @@ export default function Home() {
           <div>
             <p className="label-mono animate-fade-up">{profile.title}</p>
             <h1 className="mt-4 max-w-3xl font-display text-[clamp(2.5rem,6vw,5rem)] font-extrabold leading-[1.02] tracking-tight text-ink">
-              <span className="rise-line"><b>Proffessor Dr. Syed Tahir</b></span>
+              <span className="rise-line"><b>Proffessor</b></span>
+              <span className="rise-line"><b>Dr. Syed Tahir</b></span>
               <span className="rise-line"><b>Hussain</b> <b className="text-beam">Rizvi.</b></span>
             </h1>
             <p className="animate-fade-up-delay-2 mt-5 min-h-[2rem] font-display text-xl font-medium sm:text-2xl">

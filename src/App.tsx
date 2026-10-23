@@ -6,6 +6,7 @@ import Experience from './pages/Experience'
 import Research from './pages/Research'
 import Teaching from './pages/Teaching'
 import Resume from './pages/Resume'
+import Expertise from './pages/Experitse'
 import NetworkBackground from './components/NetworkBackground'
 import { profile } from './data'
 import './App.css'
@@ -16,6 +17,7 @@ const links: { to: string; label: string; end?: boolean }[] = [
   { to: '/experience', label: 'Experience' },
   { to: '/research', label: 'Research' },
   { to: '/teaching', label: 'Teaching' },
+  { to: '/expertise', label: 'Expertise'},
   { to: '/resume', label: 'CV' },
 ]
 
@@ -60,7 +62,7 @@ function Navbar() {
           className="font-display text-lg font-bold text-ink"
           onClick={() => setOpen(false)}
         >
-          Dr. Tahir Rizvi
+         Proffessor Dr. Tahir Rizvi
         </NavLink>
 
         <div className="ml-auto hidden items-center gap-1 md:flex">
@@ -130,6 +132,7 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/research" element={<Research />} />
           <Route path="/teaching" element={<Teaching />} />
+          <Route path="/expertise" element={<Expertise />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <footer className="mt-16 border-t border-[var(--line)]">
