@@ -1,10 +1,11 @@
 import PageHead, { Bullets } from '../components/PageHead'
-import {teachingEffectiveness, trainings, service, certifications, conferencesArranged, conferencesAttended, stats } from '../data'
+import {teachingEffectiveness, trainings, service, certifications, conferencesArranged, conferencesAttended} from '../data'
 
 export default function Teaching() {
   return (
     <main id="main" className="mx-auto max-w-6xl px-4 py-12 sm:py-16">
       <PageHead label="Classroom" title="Teaching & Service" sub="Courses, supervision, professional training and international engagement." />
+
 
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         <div className="panel p-6">

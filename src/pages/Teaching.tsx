@@ -1,5 +1,5 @@
 import PageHead, { Bullets } from '../components/PageHead'
-import { coursesUG, coursesPhD, stats } from '../data'
+import { coursesUG, coursesPhD} from '../data'
 
 export default function Teaching() {
   return (
